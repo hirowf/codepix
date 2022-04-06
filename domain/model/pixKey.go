@@ -30,11 +30,11 @@ func (pixKey *PixKey) isValid() error {
 	_, err := govalidator.ValidateStruct(pixKey)
 
 	if pixKey.Kind != "email" && pixKey.Kind != "cpf" {
-		return errors.New("Invalid key type")
+		return errors.New("invalid key type")
 	}
 
 	if pixKey.Status != "active" && pixKey.Status != "inactive" {
-		return errors.New("Invalid status")
+		return errors.New("invalid status")
 	}
 
 	if err != nil {

@@ -32,6 +32,7 @@ func NewBank(code string, name string) (*Bank, error) {
 	bank.CreatedAt = time.Now()
 
 	err := bank.isValid()
+
 	if err != nil {
 		return nil, err
 	}

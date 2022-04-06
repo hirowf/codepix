@@ -39,15 +39,15 @@ func (t *Transaction) isValid() error {
 	_, err := govalidator.ValidateStruct(t)
 
 	if t.Amount <= 0 {
-		return errors.New("The amount must be greater than 0")
+		return errors.New("the amount must be greater than 0")
 	}
 
 	if t.Status != TransactionPending && t.Status != TransactionCompleted && t.Status != TransactionError {
-		return errors.New("Invalid status for the transaction")
+		return errors.New("invalid status for the transaction")
 	}
 
 	if t.PixKeyTo.AccountID == t.AccountFrom.ID {
-		return errors.New("The source and destinantion account cannot be the same")
+		return errors.New("the source and destinantion account cannot be the same")
 	}
 
 	if err != nil {

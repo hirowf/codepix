@@ -3,19 +3,20 @@ package model_test
 import (
 	"testing"
 
-	"github.com/santosant/codepix-go/domain/model"
 	uuid "github.com/satori/go.uuid"
+
+	"github.com/santosant/codepix-go/domain/model"
 
 	"github.com/stretchr/testify/require"
 )
 
 func TestModel_NewAccount(t *testing.T) {
 	code := "001"
-	name := "Banco Itaú"
+	name := "Fake Bank"
 	bank, err := model.NewBank(code, name)
 
 	accountNumber := "abcnumber"
-	ownerName := "Hiroto"
+	ownerName := "Anderson"
 	account, err := model.NewAccount(bank, accountNumber, ownerName)
 
 	require.Nil(t, err)
