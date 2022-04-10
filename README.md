@@ -34,11 +34,11 @@
 - If not exists, we can create on sending a request to CodePix
 - Key are storage in the bank & CodePix
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7e22685-e985-4a79-b033-473b15be85b8/Untitled.png)
+![image](https://user-images.githubusercontent.com/17819811/162598370-f8421a0c-d616-41eb-b096-5f5539000d61.png)
 
 ## Process dynamic
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/704b6105-75cf-4d05-8e7e-d154accdd95a/Untitled.png)
+![image](https://user-images.githubusercontent.com/17819811/162598380-dbe5f75a-90a2-4459-a294-bc391ddf802e.png)
 
 **CodePix:**
 
