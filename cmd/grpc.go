@@ -16,8 +16,8 @@ limitations under the License.
 package cmd
 
 import (
-	"github.com/santosant/codepix-go/application/grpc"
-	"github.com/santosant/codepix-go/infrastructure/db"
+	"github.com/santosant/codepix/application/grpc"
+	"github.com/santosant/codepix/infrastructure/db"
 	"os"
 
 	"github.com/spf13/cobra"

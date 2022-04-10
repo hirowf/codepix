@@ -2,8 +2,8 @@ package grpc
 
 import (
 	"context"
-	"github.com/santosant/codepix-go/application/grpc/pb"
-	"github.com/santosant/codepix-go/application/usecase"
+	"github.com/santosant/codepix/application/grpc/pb"
+	"github.com/santosant/codepix/application/usecase"
 )
 
 type PixGrpcService struct {

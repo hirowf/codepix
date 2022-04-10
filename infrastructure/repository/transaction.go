@@ -3,7 +3,7 @@ package repository
 import (
 	"fmt"
 	"github.com/jinzhu/gorm"
-	"github.com/santosant/codepix-go/domain/model"
+	"github.com/santosant/codepix/domain/model"
 )
 
 type TransactionRepositoryDb struct {

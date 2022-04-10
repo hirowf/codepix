@@ -1,4 +1,4 @@
-module github.com/santosant/codepix-go
+module github.com/santosant/codepix
 
 go 1.15
 

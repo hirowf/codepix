@@ -2,7 +2,7 @@ package usecase
 
 import (
 	"errors"
-	"github.com/santosant/codepix-go/domain/model"
+	"github.com/santosant/codepix/domain/model"
 	"log"
 )
 

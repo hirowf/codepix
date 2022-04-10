@@ -3,9 +3,9 @@ package grpc
 import (
 	"fmt"
 	"github.com/jinzhu/gorm"
-	"github.com/santosant/codepix-go/application/grpc/pb"
-	"github.com/santosant/codepix-go/application/usecase"
-	"github.com/santosant/codepix-go/infrastructure/repository"
+	"github.com/santosant/codepix/application/grpc/pb"
+	"github.com/santosant/codepix/application/usecase"
+	"github.com/santosant/codepix/infrastructure/repository"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	"log"
