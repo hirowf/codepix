@@ -18,6 +18,9 @@
 
 ## Idea
 
+![image](https://user-images.githubusercontent.com/17819811/162598398-af8c5387-9982-4e48-9206-bf380755b2c9.png)
+
+
 ## About CodePix
 
 - The microservice CodePix will be responsible for intermediate the banks transfers
