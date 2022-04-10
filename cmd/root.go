@@ -29,7 +29,7 @@ var cfgFile string
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
 	Use:   "codepix",
-	Short: "Use codepix software to intermediate bank transactions with Apache Kafka and gRPC",
+	Short: "Use codepix software to intermediate bank transactions with Apache kafka and gRPC",
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	//	Run: func(cmd *cobra.Command, args []string) { },
