@@ -71,7 +71,7 @@ For asynchronous comunication will use **APACHE Kafka,** to process data
 
 ## CodePix structure and layers
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/596ee1d1-4a79-4d75-9648-cdeb854412fe/Untitled.png)
+![image](https://user-images.githubusercontent.com/17819811/162598407-31c28b9a-3762-4458-b946-cbc7f14c4c52.png)
 
 ## Resources
 
