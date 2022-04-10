@@ -9,8 +9,8 @@ import (
 
 	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"
-	- "github.com/lib/pq"
-	- "github.com/driver/sqlite"
+	_ "github.com/lib/pq"
+	_ "gorm.io/driver/sqlite"
 )
 
 func init() {
@@ -38,7 +38,7 @@ func ConnectDB(env string) *gorm.DB {
 	}
 
 	if err != nil {
-		log.Fatalf("Error connecting to dabase? %v", err)
+		log.Fatalf("Error connecting to database: %v", err)
 		panic(err)
 	}
 
